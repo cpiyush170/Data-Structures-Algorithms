@@ -1,4 +1,5 @@
 //Implementation of binary search (iterative method)
+// For binary search to work, array should be sorted.
 
 #include <iostream>
 #define SIZE 5
