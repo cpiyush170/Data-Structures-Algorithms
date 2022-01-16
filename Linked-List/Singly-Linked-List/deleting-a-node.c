@@ -27,6 +27,7 @@ void delNode(node **head, int key){
     
     // temp is used to freeing the memory
     node *temp;
+    // if you want to delete head node - first node
     if((*head)->data == key){
         // keep head in temp (backup)
         temp = *head;
@@ -36,6 +37,7 @@ void delNode(node **head, int key){
         free(temp);
 
     }
+    // case 2: delete nth node in list
     else{
         node *current = *head;
         while(current->next != NULL){
