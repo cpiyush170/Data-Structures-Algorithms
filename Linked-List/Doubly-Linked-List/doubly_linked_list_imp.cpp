@@ -41,6 +41,43 @@ void addAfterGivenNode(Node *prev_node, int val){
     
 
 }
+void addAtEnd(Node *head, int val){
+    // creating a node
+    Node *newNode = new Node();
+    newNode->data = val;
+    newNode->next = NULL;
+    
+     /* If the Linked List is empty, then make the new
+        node as head */
+    if(head == NULL)
+    {
+        newNode->prev = NULL;
+        head = newNode;
+        return;
+    }
+    Node *temp = head;
+
+    while(temp->next != NULL)
+    {
+        temp = temp->next;
+    }
+    newNode->prev = temp;
+    temp->next = newNode;
+}
+void addBefore(Node *next_node, int val){
+    // creating a node
+    Node *newNode = new Node();
+    newNode->data = val;
+    
+    if(next_node == NULL)
+    {
+        return;
+    }
+    newNode->next = next_node;
+    newNode->prev = next_node->prev;
+    next_node->prev->next = newNode;
+    next_node->prev = newNode;
+}
 void printDLL(Node *head){
 
     if(head != NULL)
@@ -56,5 +93,7 @@ int main() {
     head = addFront(head,60);
     head = addFront(head,80);
     addAfterGivenNode(head->next,77);
+    addAtEnd(head,50);
+    addBefore(head->next->next,359);
     printDLL(head);
 }
