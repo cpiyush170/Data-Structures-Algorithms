@@ -1,5 +1,4 @@
-// C++ program to implement
-// the above approach
+// Circular Linked List
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -68,4 +67,3 @@ int main()
 	return 0;
 }
 
-// This is code is contributed by rathbhupendra
