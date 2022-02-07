@@ -1,5 +1,8 @@
+/* Depth First Strategy - completely visit a subtree before going to next child.
+Types: <root> <left> <right> - PreOrder
+        <left> <root> <right> - InOrder
+         <left> <right> <root> - PostOrder */
 #include <iostream>
-#include <queue>
 
 using namespace std;
 
