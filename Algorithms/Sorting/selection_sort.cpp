@@ -1,4 +1,5 @@
-/* In selection sort, we will select the optimal element for every index by comparing all other elements.*/
+/* In selection sort, we will select the optimal element for every index by comparing all other elements.
+ Time Complexity - O(n^2) */
 
 #include <iostream>
 using namespace std;
