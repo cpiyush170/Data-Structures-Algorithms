@@ -10,6 +10,7 @@ void swap(int arr[], int nextIndex, int currIndex){
     arr[nextIndex] = arr[currIndex];
     arr[currIndex] = temp;
 }
+
 void bubble_sort(int arr[], int n){
 
     for(int i=0; i<n-1; i++){
@@ -22,6 +23,8 @@ void bubble_sort(int arr[], int n){
         }
         if(!swapped) break; // if not swapped break outer loop and array is sorted
     }
+    
+    // printing swapped array
     for(int i=0; i<=n-1; i++){
         cout << arr[i]<<" ";
     }
@@ -29,6 +32,7 @@ void bubble_sort(int arr[], int n){
 int main() {
     
     int arr[] = {4,3,7,1,5};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    
+    int n = sizeof(arr)/sizeof(arr[0]); // calculating size of array
     bubble_sort(arr,n);
 }
