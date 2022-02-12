@@ -1,4 +1,4 @@
-/* In bubble sort, each pair of adjacent elements are compared and the elements are swapped if they are not follow the ordering rule. 
+/* In bubble sort, each pair of adjacent elements are compared and the elements are swapped if they are not following the ordering rule. 
 Time Complexity - O(n^2) - in worst case */
 
 #include <iostream>
