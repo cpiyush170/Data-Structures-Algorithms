@@ -90,6 +90,7 @@ Node* Delete(Node *root, int data){
     return root;
 
 }
+// InOrder traversal gives sorted list of nodes
 void InOrder(Node *root){
 
     if(root == NULL) return;
