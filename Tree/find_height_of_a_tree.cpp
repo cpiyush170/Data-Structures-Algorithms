@@ -1,3 +1,5 @@
+// height of tree = height of root node
+// for any node, height of tree = is greater of height of its left subtree and height of its right subtree + 1 (for connecting root node to subtree)
 #include <iostream>
 using namespace std;
 
