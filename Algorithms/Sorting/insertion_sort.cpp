@@ -24,7 +24,8 @@ int* insert_sort(int n){
     {
         int curr_val = p[i]; // store current index value of array
         int curr_index = i; // store current index of array
-
+        
+// if current_index > 0 and value of previous element is greater than current value then, swap them 
 while( curr_index > 0 && p[curr_index-1] > curr_val)
 {
     p[curr_index] = p[curr_index-1];
