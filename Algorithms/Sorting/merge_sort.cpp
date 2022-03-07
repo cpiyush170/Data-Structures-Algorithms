@@ -4,7 +4,8 @@ At every step n operations are performed and
 each step we are dividing array into half so,
 logn steps are performed with n operations at each
 step.
-So, time complexity will be O(nlogn) */
+So, time complexity will be O(nlogn) 
+It is stable algorithm, i.e - it preserve the relative order of the original array, but it's not in-place algorithm*/
 
 #include <iostream>
 using namespace std;
