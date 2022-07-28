@@ -1,4 +1,5 @@
-// height of tree = height of root node
+// Height of tree = Height of root node
+// Height of a node = Number of edges in longest path from that node to a leaf node.
 // for any node, height of tree = is greater of height of its left subtree and height of its right subtree + 1 (for connecting root node to subtree)
 #include <iostream>
 using namespace std;
