@@ -5,6 +5,10 @@ The balance factor of every node is either -1, 0, 1. ie. | hl - hr | <= 1. Then 
 If balance factor is | hl - hr | > 1, then node is imbalanced.
 If any node of binary search tree is imbalanced, then we perform rotations to make it balanced binary search tree i.e. AVL tree 
 
-
+Rotation for Insertion:
+1. LL Rotation
+2. RR Rotation
+3. LR Rotation
+4. RL Rotation
 
 
