@@ -3,6 +3,8 @@ Balance factor is = height of left subtree - height of right subtree.
 We calcualte balance factor of every node of binary search tree (making it AVL tree).
 The balance factor of every node is either -1, 0, 1. ie. | hl - hr | <= 1. Then it is balanced node
 If balance factor is | hl - hr | > 1, then node is imbalanced.
+If any node of binary search tree is imbalanaced, then we perform rotations to make it balanced binary search tree i.e. AVL tree 
+
 
 
 
