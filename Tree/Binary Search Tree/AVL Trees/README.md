@@ -12,7 +12,8 @@ For insertion in AVL tree, we first perform standard BST insertion of the node a
 2. Left Right case
 3. Right Right case
 4. Right Left case
-Rotation for Insertion:
+
+#Rotation for Insertion:
 1. LL Rotation
 2. RR Rotation
 3. LR Rotation
