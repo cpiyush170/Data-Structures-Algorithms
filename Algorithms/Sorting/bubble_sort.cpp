@@ -1,5 +1,6 @@
 /* In bubble sort, each pair of adjacent elements are compared and the elements are swapped if they are not following the ordering rule. 
-Time Complexity - O(n^2) - in worst case */
+Time Complexity - O(n^2) - in worst case. Best Case: O(n). In every iteration (pass), the largest element is sorted. It is stable algorithm and adaptive (we make it
+using flag variable) */
 
 #include <iostream>
 using namespace std;
