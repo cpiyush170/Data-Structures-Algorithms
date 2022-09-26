@@ -2,7 +2,7 @@
 #include <list>
 using namespace std;
 
-// Adjacency list representation of graph ---> O(n) time complexity
+// Adjacency list representation of graph using array of lists ---> O(n) time complexity
 class Graph{
 
     int V; // no. of vertices in graph
