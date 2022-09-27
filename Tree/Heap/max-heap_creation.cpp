@@ -4,15 +4,18 @@ using namespace std;
 // Max - Heap creation using array
 
 void InsertHeap(int* arr, int n){
-    int temp = arr[n];
+    int temp = arr[n]; // keep last element in temp var
     int i = n;
 
+    // keep looping until new element > parent and i > 1
     while(temp > arr[i/2] && i > 1){
+        // if parent is < new element, put parent in current i
          if(arr[i/2] < temp){
              arr[i] = arr[i/2];
          }
          i = i/2;
     }
+    // put temp at parent pos
     arr[i] = temp;
 }
 void createHeap(int arr[], int n){
